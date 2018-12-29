@@ -18,16 +18,18 @@
 	$(".menu a").click(function(){
 		var id =  $(this).attr('class');
 		id = id.split('-');
+		$("#homes").hide();
 		$("#menu-container .content").hide();
 		$("#menu-container #menu-"+id[1]).addClass("animated fadeInDown").show();
 		return false;
 	});
 
-	$(".menu a.homebutton").click(function(){
-		$(".menu").slideUp();
+	$(".logo a.homebutton").click(function(){
+		$("#menu-container .content").hide();
+		$("#homes").addClass("animated fadeInDown").show();
+		return false;
 	});
-
-
+	
 	$(window).resize(function(){
 		if ($(window).width() <= 769){	
 			$(".menu a").click(function(){
@@ -36,7 +38,7 @@
 			});
 		}	
 	});
-
+	
 	/*
 	var dt = window.atob('IC0gPGEgcmVsPSJub2ZvbGxvdyIgaHJlZj0iaHR0cDovL3d3dy50ZW1wbGF0ZW1vLmNvbS9wcmV2aWV3L3RlbXBsYXRlbW9fNDEwX2NpcmNsZSI+Q2lyY2xlPC9hPiBieSA8YSByZWw9Im5vZm9sbG93IiBocmVmPSJodHRwOi8vd3d3LnRlbXBsYXRlbW8uY29tIj5GcmVlIFRlbXBsYXRlczwvYT4='); 
 	var y = document.getElementById('footer-text');

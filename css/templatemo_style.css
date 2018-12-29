@@ -227,14 +227,14 @@ html, body {
 }
 
 body {
-    font: 13px/19px "Open Sans", Arial, sans-serif;
+    font: 14px "Open Sans", Arial, sans-serif;
     font-weight: 300;
     color: #777777;
     background-color: #4c4c4c;
 }
 
 a {
-    color: #01579B;
+    color: #455a64;
     text-decoration: none !important;
     -webkit-transition: all 200ms ease-in;
     -moz-transition: all 200ms ease-in;
@@ -244,14 +244,13 @@ a {
 }
 
 a:hover {
-    color: #039BE5;
+    color: #90a4ae;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: "Open Sans", Arial, sans-serif;
     color: #333333;
     margin: 0 0 30px 0;
-    text-transform: uppercase;
     font-weight: 700;
 }
 
@@ -300,13 +299,17 @@ h6 {
     display: none;
 }
 
+.title {
+	font-size: 3.5em;
+	color:#1565c0; 
+	font-family: Computer;
+}
 /* ==========================================================================
     Header Site Styling
    ========================================================================== */
 .sidebar-menu {
     position: relative;
     z-index: 9;
-    padding-right: 80px;
 }
 
 .logo-wrapper {
@@ -345,7 +348,6 @@ h6 {
 }
 
 .menu-wrapper ul.menu li a {
-    text-transform: uppercase;
     display: block;
     padding: 18px 30px;
     color: #333333;
@@ -396,7 +398,6 @@ h6 {
     About Styling
    ========================================================================== */
 .toggle-content {
-    margin-top: 30px;
     display: block;
     padding: 30px;
     background-color: white;
@@ -405,6 +406,9 @@ h6 {
     border-radius: 10px;
     background-clip: padding-box;
   /* stops bg color from leaking outside the border: */;
+}
+.toggle-content h2 {
+	color:#01579B;
 }
 
 .icon-item {
@@ -445,7 +449,6 @@ ul.tabs {
 }
 
 .member-item .thumb {
-
 	width: 100%;
     overflow: hidden;
 }
@@ -591,9 +594,7 @@ form input, form textarea {
 	RESPONSIVE STYLES 
 --------------------------------------------------------*/
 @media (max-width: 1024px) {
-    .sidebar-menu {
-        padding-right: 40px;
-    }
+
 
     #prevslide {
         right: 0;
@@ -611,7 +612,7 @@ form input, form textarea {
 @media (max-width: 991px) {
     .sidebar-menu {
         margin-bottom: 30px;
-        padding-right: 40px;
+        
     }
 
     .icon-item {

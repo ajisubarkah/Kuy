@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width">
 
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet">
-
+	<link rel="stylesheet" href="fonts/fonts-style.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/normalize.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
@@ -26,33 +26,55 @@
                 <div class="sidebar-menu">
                     <div class="logo-wrapper">
                         <h1 class="logo">
-                            <a href="#"><img src="images/logo.png" width="200px" alt="itats">
-                            <span>Informatika ITATS 2016</span></a>
+                            <a href="#" class="homebutton"><img src="images/logo.png" width="200px" alt="itats">
+                            <span>Informatics Engineering ITATS</span></a>
                         </h1>
                     </div> 
                     <div class="menu-wrapper">
                         <ul class="menu">
                             <li><a class="show-1" href="#">SISGO</a></li>
                             <li><a class="show-2" href="#">ABON</a></li>
-                            <li><a class="show-3" href="#">JODOHKU</a></li>
-							<li><a class="show-4" href="#">PULSAKU</a></li>
+                            <li><a class="show-3" href="#">CMS Dew World</a></li>
+							<li><a class="show-4" href="#">Pulsa Ku</a></li>
                         </ul> 
                         <a href="#" class="toggle-menu"><i class="fa fa-bars"></i></a>
                     </div>
                 </div>
             </div> 
+			<div class="col-md-8 col-sm-12">
+				<div id="homes" class="about">
+					<div class="row">
+						<div class="col-md-12 col-sm-12">
+							<div class="toggle-content text-center">
+								<h1 class="title">Welcome</h1>
+								<p>Website ini adalah list dari project 
+								Website dan apps Android yang dibuat oleh para developer Informatics Engineering ITATS. 
+								Pada project website kita menerapkan framework Laravel atau Code Igniter. Untuk applikasi mobile 
+								menggunakan Java Android dan IDE Android-Studio.
+								</p>
+								<br>
+								<p>Visit our open source website : </p>
+								<h1><a href="https://github.com/ajisubarkah/SISGO"><i class="fa fa-github"></i></a></h1>
+							</div>
+						</div> 
+					</div> 
+				</div>
+			</div>
             <div class="col-md-8 col-sm-12">
                 <div id="menu-container">
                     <div id="menu-1" class="about content">
                         <div class="row">
-                            
                             <div class="col-md-12 col-sm-12">
                                 <div class="toggle-content text-center">
-                                    <h3>Sistem Informasi Gudang Online</h3>
-                                    <p>SISGO adalah aplikasi berbasis Website dan Android untuk memanajemen Gudang Online.</p>
-									<br><br>
-									<p> Visit our website : </p>
-									<h1><a href="https://subarkah.kuy.web.id">SISGO</a></h1>
+                                    <h2>Gudang Kok Ribet?</h2>
+                                    <p>SISGO adalah aplikasi berbasis Website dan Android untuk memanajemen Gudang Online. 
+									Penggunaan aplikasi Android membutuhkan koneksi Internet. Apps dapat melakukan scan barcode 
+									untuk melakukan penambahan stok barang. Dengan adanya SISGO manage Gudang jadi TIDAK RIBET.</p>
+									<br>
+									<p>Visit our website : </p>
+									<h1><a href="https://subarkah.kuy.web.id"><img src="images/sisgo.png" width="36.4px"></a></h1>
+									<p>Our android application : </p>
+									<h1><a href="https://github.com/ajisubarkah/SISGO"><i class="fa fa-github"></i></a></h1>
                                 </div>
                             </div> 
                         </div> 
@@ -60,27 +82,36 @@
                         <div class="row">
                             <div class="col-md-4 col-sm-4">
                                 <div class="member-item">
-                                    <div class="thumb">
-                                        <img src="images/no_picture.png" alt="Subarkah">
-                                    </div>
+                                    <div class="g-item">
+										<img src="images/no_picture.png" alt="subarkah">
+										<a data-rel="lightbox" class="overlay" href="images/no_picture.png">
+											<span>+</span>
+										</a>
+									</div>
                                     <h5>Mohammad Aji Subarkah</h5>
                                     <span>06.2016.1.06715</span>
                                 </div> 
                             </div> 
                             <div class="col-md-4 col-sm-4">
                                 <div class="member-item">
-                                    <div class="thumb">
-                                        <img src="images/no_picture.png" alt="Hendry Nurcahyo">
-                                    </div>
+                                    <div class="g-item">
+										<img src="images/no_picture.png" alt="hendry">
+										<a data-rel="lightbox" class="overlay" href="images/no_picture.png">
+											<span>+</span>
+										</a>
+									</div>
                                     <h5>Hendry Nurcahyo</h5>
                                     <span>06.2016.1.06712</span>
                                 </div> 
                             </div> 
                             <div class="col-md-4 col-sm-4">
                                 <div class="member-item">
-                                    <div class="thumb">
-                                        <img src="images/no_picture.png" alt="Dina Pitri">
-                                    </div>
+                                    <div class="g-item">
+										<img src="images/no_picture.png" alt="dina">
+										<a data-rel="lightbox" class="overlay" href="images/no_picture.png">
+											<span>+</span>
+										</a>
+									</div>
                                     <h5>Dina Pitri Masruhan</h5>
                                     <span>06.2016.1.xxxxx</span>
                                 </div>
@@ -89,12 +120,13 @@
                     </div>
 					<div id="menu-2" class="about content">
                         <div class="row">
-                            
                             <div class="col-md-12 col-sm-12">
                                 <div class="toggle-content text-center">
-                                    <h3>Sistem Informasi Absensi Online</h3>
-                                    <p>SI ABON adalah sistem manajemen Absensi Online.</p>
-									<br><br>
+                                    <h2>Absen Dimana-pun dan Kapan-pun</h2>
+                                    <p>ABON adalah sistem manajemen Absensi Online berbasis Website dan Android. 
+									Sekarang Anda tidak perlu khawatir untuk melakukan Absensi dimana-pun dan kapan-pun asalkan 
+									ada koneksi.</p>
+									<br>
 									<p> Visit our website : </p>
 									<h1><a href="https://habibah.kuy.web.id">ABON</a></h1>
                                 </div>
@@ -104,27 +136,36 @@
                         <div class="row">
                             <div class="col-md-4 col-sm-4">
                                 <div class="member-item">
-                                    <div class="thumb">
-                                        <img src="images/no_picture.png" alt="Yaummul">
-                                    </div>
+                                    <div class="g-item">
+										<img src="images/no_picture.png" alt="yaummul">
+										<a data-rel="lightbox" class="overlay" href="images/no_picture.png">
+											<span>+</span>
+										</a>
+									</div>
                                     <h5>Maryam Ummul Habibah</h5>
                                     <span>06.2016.1.06699</span>
                                 </div> 
                             </div> 
                             <div class="col-md-4 col-sm-4">
                                 <div class="member-item">
-                                    <div class="thumb">
-                                        <img src="images/no_picture.png" alt="Nabila">
-                                    </div>
+                                    <div class="g-item">
+										<img src="images/no_picture.png" alt="nabila">
+										<a data-rel="lightbox" class="overlay" href="images/no_picture.png">
+											<span>+</span>
+										</a>
+									</div>
                                     <h5>Nabila Dayu Mega Anjani</h5>
                                     <span>06.2016.1.xxxxx</span>
                                 </div> 
                             </div> <!-- /.col-md-4 -->
                             <div class="col-md-4 col-sm-4">
                                 <div class="member-item">
-                                    <div class="thumb">
-                                        <img src="images/no_picture.png" alt="Sindy">
-                                    </div>
+                                    <div class="g-item">
+										<img src="images/no_picture.png" alt="sindy">
+										<a data-rel="lightbox" class="overlay" href="images/no_picture.png">
+											<span>+</span>
+										</a>
+									</div>
                                     <h5>Sindy Fuji</h5>
                                     <span>06.2016.1.xxxxx</span>
                                 </div>
@@ -136,12 +177,12 @@
                             
                             <div class="col-md-12 col-sm-12">
                                 <div class="toggle-content text-center">
-                                    <h3>Sistem Informasi Pencari Jodoh Online</h3>
-                                    <p>Saya adalah seorang jombolers. Jadi, saya membuat aplikasi ini. Semoga saya dan kalian yang 
-									menggunakan aplikasi saya mendapatkan jodohnya ya!</p>
-									<br><br>
-									<p> Visit my lonely website : </p>
-									<h1><a href="https://dewa.kuy.web.id">JODOHKU</a></h1>
+                                    <h2>Dew World</h2>
+                                    <p>Saya adalah seorang jombolers. Jadi, saya membuat dunia Website saya sendiri dengan nama Dew World. Karena 
+									saya seorang programmer sejati maka saya menggunakan template Website orang lain.</p>
+									<br>
+									<p> Visit my templating website : </p>
+									<h1><a href="https://dewa.kuy.web.id"><img src="images/dew-world.png" width="200px"></a></h1>
                                 </div>
                             </div> 
                         </div> 
@@ -149,10 +190,13 @@
                         <div class="row">
                             <div class="col-md-4 col-sm-4">
                                 <div class="member-item">
-                                    <div class="thumb">
-                                        <img src="images/no_picture.png" alt="Jombolers">
-                                    </div>
-                                    <h5>Kaisul F. Dewa Nanda</h5>
+                                    <div class="g-item">
+										<img src="images/no_picture.png" alt="dewa">
+										<a data-rel="lightbox" class="overlay" href="images/no_picture.png">
+											<span>+</span>
+										</a>
+									</div>
+                                    <h5>Kaisul Fuqara Dewa Nanda</h5>
                                     <span>06.2016.1.06708</span>
                                 </div> 
                             </div> 
@@ -163,11 +207,13 @@
                             
                             <div class="col-md-12 col-sm-12">
                                 <div class="toggle-content text-center">
-                                    <h3>Sistem Informasi Pulsa Online</h3>
-                                    <p>Pulsaku adalah aplikasi online untuk membeli Pulsa!</p>
-									<br><br>
+                                    <h2>No Pulsa? No Life!</h2>
+                                    <p>Pulsa Ku adalah aplikasi online untuk membeli Pulsa. Dengan menggunakan Pulsa Ku 
+									Anda akan dimudahkan dalam membeli pulsa, tinggal klik dan bayar menggunakan saldo PulsaPay 
+									atau dapat menggunakan Bank yang telah kami sediakan.</p>
+									<br>
 									<p> Visit our website : </p>
-									<h1><a href="https://d2l.kuy.web.id">PULSAKU</a></h1>
+									<h1><a href="https://d2l.kuy.web.id"><img src="images/pulsaku.png" width="200px"></a></h1>
                                 </div>
                             </div> 
                         </div> 
@@ -175,27 +221,36 @@
                         <div class="row">
                             <div class="col-md-4 col-sm-4">
                                 <div class="member-item">
-                                    <div class="thumb">
-                                        <img src="images/no_picture.png" alt="Dzul">
-                                    </div>
+                                    <div class="g-item">
+										<img src="images/no_picture.png" alt="dzul">
+										<a data-rel="lightbox" class="overlay" href="images/no_picture.png">
+											<span>+</span>
+										</a>
+									</div>
                                     <h5>Wafi Dzul Qornain</h5>
                                     <span>06.2016.1.06657</span>
                                 </div> 
                             </div>
 							<div class="col-md-4 col-sm-4">
                                 <div class="member-item">
-                                    <div class="thumb">
-                                        <img src="images/no_picture.png" alt="Dzul">
-                                    </div>
+                                    <div class="g-item">
+										<img src="images/no_picture.png" alt="dos">
+										<a data-rel="lightbox" class="overlay" href="images/no_picture.png">
+											<span>+</span>
+										</a>
+									</div>
                                     <h5>Fathrezza Farid Taqwa</h5>
                                     <span>06.2016.1.06652</span>
                                 </div> 
                             </div> 
 							<div class="col-md-4 col-sm-4">
                                 <div class="member-item">
-                                    <div class="thumb">
-                                        <img src="images/no_picture.png" alt="Dzul">
-                                    </div>
+                                    <div class="g-item">
+										<img src="images/no_picture.png" alt="bhima">
+										<a data-rel="lightbox" class="overlay" href="images/no_picture.png">
+											<span>+</span>
+										</a>
+									</div>
                                     <h5>Bhima Aldy Al'amsyah</h5>
                                     <span>06.2016.1.06648</span>
                                 </div> 
@@ -211,11 +266,11 @@
         <div class="row">
             <div class="col-md-12 footer">
                 <p id="footer-text">
-                	Copyright &copy; 2018 <a href="#">Mr. Plankton</a>
+                	Copyright &copy; 2018 <a href="https://github.com/ajisubarkah/Kuy">Mr. Plankton</a>
                  </p>
-            </div><!-- /.footer --> 
+            </div>
         </div>
-    </div> <!-- /.container-fluid -->
+    </div>
 
     <script src="js/vendor/jquery-1.10.1.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
