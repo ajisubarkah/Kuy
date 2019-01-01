@@ -1,12 +1,17 @@
-/* ==========================================================================
-    HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
-   ========================================================================== 
+@font-face {
+  font-family: Bikarosta;
+  src: url('../fonts/Bikarosta.ttf');
+}
 
-   Circle Template 
-   
-   http://www.templatemo.com/tm-410-circle
+@font-face {
+  font-family: Linecons;
+  src: url('../fonts/linecons.ttf');
+}
 
-*/
+@font-face {
+  font-family: Computer;
+  src: url('../fonts/ComputerAmok.ttf');
+}
 
 html,
 button,
