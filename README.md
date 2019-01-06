@@ -1,5 +1,6 @@
 <div align="center">
-[![img](https://raw.githubusercontent.com/ajisubarkah/Kuy/master/resource/dasboard.png)](https://kuy.web.id)
+
+[![img](assets/preview.png)](https://kuy.web.id)
 </div>
 
 ## KUY
